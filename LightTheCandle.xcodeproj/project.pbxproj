@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		CD3ABB821E2C47B000D409EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3ABB811E2C47B000D409EF /* AppDelegate.swift */; };
-		CD3ABB841E2C47B000D409EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3ABB831E2C47B000D409EF /* ViewController.swift */; };
-		CD3ABB871E2C47B000D409EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3ABB851E2C47B000D409EF /* Main.storyboard */; };
-		CD3ABB891E2C47B000D409EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD3ABB881E2C47B000D409EF /* Assets.xcassets */; };
-		CD3ABB8C1E2C47B000D409EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3ABB8A1E2C47B000D409EF /* LaunchScreen.storyboard */; };
+		CD3ABB941E2C49A900D409EF /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD3ABB931E2C49A900D409EF /* MainWindow.xib */; };
+		CD3ABB961E2C5A1000D409EF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3ABB951E2C5A1000D409EF /* MainViewController.swift */; };
+		CD3ABB991E2C61AB00D409EF /* candle off.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD3ABB971E2C61AB00D409EF /* candle off.jpg */; };
+		CD3ABB9A1E2C61AB00D409EF /* candle on.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD3ABB981E2C61AB00D409EF /* candle on.jpg */; };
+		CD3ABB9C1E2DAB9700D409EF /* CandleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3ABB9B1E2DAB9700D409EF /* CandleModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CD3ABB7E1E2C47B000D409EF /* LightTheCandle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightTheCandle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD3ABB811E2C47B000D409EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CD3ABB831E2C47B000D409EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CD3ABB861E2C47B000D409EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CD3ABB881E2C47B000D409EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CD3ABB8B1E2C47B000D409EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD3ABB8D1E2C47B000D409EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD3ABB931E2C49A900D409EF /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		CD3ABB951E2C5A1000D409EF /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CD3ABB971E2C61AB00D409EF /* candle off.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "candle off.jpg"; sourceTree = "<group>"; };
+		CD3ABB981E2C61AB00D409EF /* candle on.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "candle on.jpg"; sourceTree = "<group>"; };
+		CD3ABB9B1E2DAB9700D409EF /* CandleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandleModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +56,13 @@
 		CD3ABB801E2C47B000D409EF /* LightTheCandle */ = {
 			isa = PBXGroup;
 			children = (
+				CD3ABB971E2C61AB00D409EF /* candle off.jpg */,
+				CD3ABB981E2C61AB00D409EF /* candle on.jpg */,
+				CD3ABB931E2C49A900D409EF /* MainWindow.xib */,
+				CD3ABB951E2C5A1000D409EF /* MainViewController.swift */,
 				CD3ABB811E2C47B000D409EF /* AppDelegate.swift */,
-				CD3ABB831E2C47B000D409EF /* ViewController.swift */,
-				CD3ABB851E2C47B000D409EF /* Main.storyboard */,
-				CD3ABB881E2C47B000D409EF /* Assets.xcassets */,
-				CD3ABB8A1E2C47B000D409EF /* LaunchScreen.storyboard */,
 				CD3ABB8D1E2C47B000D409EF /* Info.plist */,
+				CD3ABB9B1E2DAB9700D409EF /* CandleModel.swift */,
 			);
 			path = LightTheCandle;
 			sourceTree = "<group>";
@@ -123,9 +126,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD3ABB8C1E2C47B000D409EF /* LaunchScreen.storyboard in Resources */,
-				CD3ABB891E2C47B000D409EF /* Assets.xcassets in Resources */,
-				CD3ABB871E2C47B000D409EF /* Main.storyboard in Resources */,
+				CD3ABB9A1E2C61AB00D409EF /* candle on.jpg in Resources */,
+				CD3ABB941E2C49A900D409EF /* MainWindow.xib in Resources */,
+				CD3ABB991E2C61AB00D409EF /* candle off.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,31 +139,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD3ABB841E2C47B000D409EF /* ViewController.swift in Sources */,
+				CD3ABB9C1E2DAB9700D409EF /* CandleModel.swift in Sources */,
 				CD3ABB821E2C47B000D409EF /* AppDelegate.swift in Sources */,
+				CD3ABB961E2C5A1000D409EF /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		CD3ABB851E2C47B000D409EF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CD3ABB861E2C47B000D409EF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CD3ABB8A1E2C47B000D409EF /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CD3ABB8B1E2C47B000D409EF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CD3ABB8E1E2C47B000D409EF /* Debug */ = {
@@ -299,6 +284,7 @@
 				CD3ABB921E2C47B000D409EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

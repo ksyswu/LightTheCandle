@@ -11,7 +11,8 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    var window: UIWindow?
+    @IBOutlet var window: UIWindow? //인터페이스에서도 인식하도록 아이비아웃렛으로 인해 오브젝트의 델리게이트가 아웃렛,변수로 윈도우인식
+    //var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
